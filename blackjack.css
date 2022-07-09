@@ -1,0 +1,36 @@
+body{
+    background-image: url('https://previews.123rf.com/images/vireakchandara/vireakchandara1111/vireakchandara111100013/11101367-vector-poker-background.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+#dealer-cards img{
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#your-cards img{
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#hit{
+    width: 75px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#stand{
+    width: 75px;
+    height: 40px;
+    font-size: 20px;
+}
