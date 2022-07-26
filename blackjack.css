@@ -3,13 +3,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-.btn-primary {
-    color: white;
-    background-color: #56CCF2;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
-}
 
 #dealer-cards img{
     height: 175px;
@@ -23,14 +16,28 @@ body{
     margin: 1px;
 }
 
-#hit{
-    width: 75px;
-    height: 40px;
-    font-size: 20px;
+table{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-#stand{
-    width: 75px;
-    height: 40px;
-    font-size: 20px;
+th, tr{
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+#win-header{
+    color: green;
+}
+
+#loss-header{
+    color: red;
+}
+
+#draw-header{
+    color: yellow;
 }
