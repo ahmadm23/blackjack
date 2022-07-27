@@ -43,7 +43,7 @@ function startGame(){
     while (dealerSum < 17){
         let cardImg = document.createElement("img");
         let card = deck.pop();
-        cardImg.src = "blackjack/cards/" + card + ".png";
+        cardImg.src = "./cards/" + card + ".png";
         dealerSum += getValue(card);
         dealerAceCount += checkAce(card);
         document.getElementById("dealer-cards").append(cardImg);
